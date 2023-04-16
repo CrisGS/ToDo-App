@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.tasks {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+body {
+  background: rgb(250, 250, 250);
+}
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+li {
+  display: inline-flex;
+  word-wrap: break-word;
+}
+
+.delete-btn {
+  width: 24px;
+  height: 24px;
+  background: url('delete.png');
+  background-size: 24px;
+  background-position: center;
+  border: none;
+}
