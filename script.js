@@ -31,16 +31,12 @@ function addTask() {
 
   let tasksList;
 
-  switch (priorityValue) {
-    case 1:
-      tasksList = document.getElementById('high-priority');
-      break;
-    case 2:
-      tasksList = document.getElementById('medium-priority');
-      break;
-    case 3:
-      tasksList = document.getElementById('low-priority');
-      break;
+  if (priorityValue === 1) {
+    tasksList = document.getElementById('high-priority');
+  } else if (priorityValue === 2) {
+    tasksList = document.getElementById('medium-priority');
+  } else {
+    tasksList = document.getElementById('low-priority');
   }
   tasksList.appendChild(li);
 }

@@ -20,6 +20,7 @@ body {
 li {
   display: inline-flex;
   word-wrap: break-word;
+  white-space: pre;
 }
 
 .delete-btn {
